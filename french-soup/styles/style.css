@@ -1,9 +1,63 @@
 /*Some necessary adjustments*/
 h1, body, html, main {
   margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  text-align: justify;
 }
-/*Import the font and set the default size*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');/*Import the font and set the default size*/
+
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px
+}
+
+#soup {
+  background-image: url(/images/soup.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 9em;
+}
+
+#intro{
+  font-size: 1.5em;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.rCImg {
+  display: flex;
+  justify-content: center;
+}
+
+#listTitle {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 50px;
+}
+ ul {
+  font-size: 2em;
+  line-height: 1.5em;
+  list-style-type: " - " ;
+  margin: 50px;
+}
+
+ol {
+  font-size: 2em;
+  line-height: 1.5em;
+  list-style-type: 1;
+  margin: 50px;
 }
