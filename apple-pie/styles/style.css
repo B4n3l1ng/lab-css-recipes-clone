@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500&display=swap');
 * {
-    margin: 25px;
-    padding: 25px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Rubik", sans-serif;
     font-size: 10px;
     line-height: 1.5em;
+    font-weight: 200;
 }
 
-.title{
-    padding-top: 225px;
+h1{
     font-size: 9em;
     text-align: center;
     color: white;
+    font-weight: 400;
+}
+
+.title {
+    padding-top: 250px;
 }
 .image {
     margin: 0;
@@ -22,10 +29,12 @@
 }
 .intro {
     font-size: 3.5em;
-    margin: 75px;
+    margin: 150px;
+    padding: 50px;
 }
 .info {
-    padding-left: 400px;
+    padding: 50px;
+    padding-left: 500px;
 }
 hr {
     border: none;
@@ -34,4 +43,26 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 5em;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.ingredient-list {
+    list-style-type: "- ";
+    margin-left: 50px;
+}
+li {
+    font-size: 4em;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.direction-list {
+    list-style-type: "1)";
+    margin-left: 50px;
 }
