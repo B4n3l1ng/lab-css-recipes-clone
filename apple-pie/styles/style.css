@@ -52,6 +52,8 @@ hr {
     text-align: center;
     height: 5px;
     padding: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .ingredient-list {
