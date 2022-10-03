@@ -23,8 +23,8 @@ h2{
     padding-top: 250px;
 }
 .image {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 5px;
     height: 600px;
     background-image: url(/images/apple-pie.jpg);
     background-position: 0 0;
