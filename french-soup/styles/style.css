@@ -13,11 +13,14 @@ html {
 }
 
 #soup {
-  background-image: url(/images/soup.jpg);
+  background-image: url("/images/soup.jpg");
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -59,5 +62,9 @@ ol {
   font-size: 2em;
   line-height: 1.5em;
   list-style-type: 1;
+  margin: 50px;
+}
+
+hr {
   margin: 50px;
 }
